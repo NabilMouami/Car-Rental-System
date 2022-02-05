@@ -1,0 +1,10 @@
+.selling {
+    width: 100%;
+    margin: 20px auto;
+}
+.selling .seller {
+    object-fit: cover;
+    margin: 40px 120px;
+    width: 80%;
+    height: 100px;
+}

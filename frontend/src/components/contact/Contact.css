@@ -1,0 +1,65 @@
+.contact .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+.contact .row .map{
+    flex: 1 1 42rem;
+    width: 100%;
+    padding: 2rem;
+    border: var(--border);
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+}
+.contact .row form{
+    flex: 1 1 42rem;
+    padding: 2rem;
+    border: var(--border);
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    text-align: center;
+}
+.contact .row form h3{
+    font-size: 3rem;
+    color: var(--black);
+}
+.contact .row form .box{
+    margin: .7rem 0;
+    width: 100%;
+    border: var(--border);
+    padding: 1rem;
+    font-size: 1.6rem;
+    color: var(--black);
+    border-radius: .5rem;
+}
+.contact .row form textarea{
+    height: 15rem;
+    resize: none;
+}
+.comment {
+    margin: 10px auto;
+    padding: 2rem;
+    max-width: 400px;
+    display: flex;
+    flex-direction: row;
+    background-color: grey;
+    border-radius: 5px;
+    box-shadow: var(--box-shadow);
+}
+.comment img{
+    border-radius: 50%;
+    height: 40px;
+    object-fit: contain;
+    float: left;
+}
+.comment .comment-msg{
+    display: grid;
+    margin-left: 30px;
+}
+.comment h4{
+    font-size: 1.5rem;
+}
+.comment p{
+    font-size: 2rem;
+    color: honeydew;
+}

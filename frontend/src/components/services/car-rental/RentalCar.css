@@ -1,0 +1,115 @@
+.rental {
+    margin: 0 auto ;
+    width: 100%;
+    margin: 30px 20px;
+    position: relative;
+    background-color: rgba(255,255,255,.8);
+
+}
+.rental img{
+   position: relative;
+   margin-top: 20px;
+   width: 1000px;
+   height: 530px;
+}
+.rental i{
+    font-size: 3rem;
+}
+.rental span{
+    margin-left: .1rem;
+    font-size: 3rem;
+}
+.rental .ikon i {
+   padding-left: 10px;
+}
+.flex-font {
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px 10px;
+}
+.checkout{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 40px;
+    width:450px;
+    height: 600px;
+    background: #fff;
+    position: absolute;
+    top: 20px;
+    left: 1007px;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: var(--box-shadow);
+}
+.checkout h3 {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+.checkout .checkout-date-flex{
+    display: flex;
+    border: 3px solid #000;
+    border-radius: 5px;
+    padding-left: 5px;
+    
+}
+.checkout .checkout-date{
+    padding-left: 10px;
+    margin-top: 5px;
+    outline: none;
+    border-radius: none;
+    border-left: 3px solid #000;
+
+}
+.checkout .prix{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(40rem, 2fr));
+    gap: 1.5rem;
+}
+ .prix h2 span{
+    margin-left: 140px;
+}
+.btnn{
+    width: 95%;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: .3s ease;
+}
+ .btnn:hover{
+     color: #fff;
+     background-color: #ff7200;
+ }
+ .btnn a{
+     text-decoration: none;
+     color: black;
+     font-weight: bold;
+ }
+ .or {
+     text-align: center;
+     margin-top: 10px;
+ }
+ .call-me {
+     background-color: green;
+ }
+ .call-me:hover{
+     background-color: green;
+ }
+ .rental .close-login-form{
+     position: absolute;
+     top: 2.5rem;right: 70.5rem;
+     z-index: 99;
+     font-size: 3rem;
+ }
+ .rental .close-login-form:hover{
+     color: rgb(90, 156, 15);
+     transition: ease-in-out .4s;
+ }
